@@ -22,3 +22,13 @@ const makePurpleButton = document.getElementById('make-perple');
 makePurpleButton.onclick = function makePurple(){
  document.body.style.backgroundColor = 'Purple';
 }
+
+//option 4
+const makeYellowButton = document.getElementById('make-yellow');
+makeYellowButton.addEventListener('click', makeYellow);
+
+function makeYellow(){
+    document.body.style.backgroundColor = 'Yellow';
+}
+
+//option 4 more
