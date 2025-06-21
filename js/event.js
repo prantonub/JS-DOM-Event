@@ -1,4 +1,4 @@
-//option 1 Direct function call from HTML element
+//option 1: Direct function call from HTML element
 
 // <button onclick="makeOrange()">Make Orange</button> 
  function makeOrange(){
