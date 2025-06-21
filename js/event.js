@@ -32,3 +32,7 @@ function makeYellow(){
 }
 
 //option 4 more
+const makePinkButton = document.getElementById('make-pink');
+makePinkButton.addEventListener('click', function makePink(){
+    document.body.style.backgroundColor = 'Pink';
+})
