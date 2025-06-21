@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM EVENT</title>
+</head>
+
+<body>
+    <h1 onclick="console.log('This is header')">Welcome to JS DOM EVENT</h1>
+    <button onclick="console.log(10)">Button 1</button>
+    <button onclick="console.log(20)">Button 2</button>
+    <button onclick="document.body.style.backgroundColor = 'red' ">Make Red</button>
+    <button onclick="document.body.style.backgroundColor = 'Green' ">Make Green</button>
+    <button onclick="document.body.style.backgroundColor = 'Yellow' ">Make Yellow</button>
+    <!-- Function Call -->
+    <button onclick="makeBlack()">Make Black</button>
+    <button onclick="makeOrange()">Make Orange</button>
+
+<script>
+    function makeBlack(){
+       document.body.style.backgroundColor = 'Black';
+    }
+
+    function makeOrange(){
+        document.body.style.backgroundColor = 'Orange';
+    }
+</script>
+</body>
+
+</html>
