@@ -37,7 +37,7 @@ makePinkButton.addEventListener('click', function makePink(){
     document.body.style.backgroundColor = 'Pink';
 })
 
-//option 5 Final (Most used)
+//option 5 Final (Most used)***
 document.getElementById('make-goldenRod').addEventListener('click', function(){
     document.body.style.backgroundColor = 'goldenRod';
 })
