@@ -1,5 +1,4 @@
 //option 1: Direct function call from HTML element
-
 // <button onclick="makeOrange()">Make Orange</button> 
  function makeOrange(){
      document.body.style.backgroundColor = 'Orange';
@@ -15,7 +14,7 @@
     document.body.style.backgroundColor = 'Green';
  } 
 
-//option 3: Using `onclick` property with an anonymous function expression
+//option 3: Using `onclick` property with an anonymous function expression:
 
 //<button id="make-purple">Make Purple</button>
 const makePurpleButton = document.getElementById('make-perple');
